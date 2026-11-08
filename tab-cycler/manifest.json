@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Cycler",
+  "version": "1.0.0",
+  "description": "Switches to the next tab every 2 minutes and reloads it.",
+  "permissions": ["tabs", "alarms", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Tab Cycler: click to start/stop"
+  }
+}
